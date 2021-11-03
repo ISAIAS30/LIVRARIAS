@@ -119,6 +119,7 @@ public class formLivros extends javax.swing.JFrame {
         tLivros = new javax.swing.JTable();
         jButton5 = new javax.swing.JButton();
         tfPesquisar = new javax.swing.JTextField();
+        jButton6 = new javax.swing.JButton();
 
         jButton1.setText("jButton1");
 
@@ -224,6 +225,13 @@ public class formLivros extends javax.swing.JFrame {
             }
         });
 
+        jButton6.setText("Fechar");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -280,7 +288,9 @@ public class formLivros extends javax.swing.JFrame {
                         .addComponent(jButton3)
                         .addGap(37, 37, 37)
                         .addComponent(jButton4)
-                        .addGap(0, 273, Short.MAX_VALUE)))
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton6)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -308,7 +318,8 @@ public class formLivros extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
-                    .addComponent(jButton4))
+                    .addComponent(jButton4)
+                    .addComponent(jButton6))
                 .addGap(25, 25, 25)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton5)
@@ -425,6 +436,10 @@ public class formLivros extends javax.swing.JFrame {
         
     }//GEN-LAST:event_tLivrosMouseClicked
 
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -468,6 +483,7 @@ public class formLivros extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
